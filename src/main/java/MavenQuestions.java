@@ -10,7 +10,7 @@ public class MavenQuestions {
         System.out.println("Enter Sometheing: ");
         if (sc.hasNextInt()){
             input = sc.nextInt();
-            System.out.println("You entered a number!\nYour number is:Yo " + input );
+            System.out.println("You entered a number!\nYour number is: " + input );
         } else {
 
             String input1 = sc.nextLine();
